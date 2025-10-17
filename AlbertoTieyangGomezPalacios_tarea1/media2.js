@@ -1,0 +1,1 @@
+// pedir un numero y predir la cantidad de número que ha introducido y hacer la media
