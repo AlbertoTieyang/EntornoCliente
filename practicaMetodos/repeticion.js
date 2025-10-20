@@ -10,7 +10,7 @@ do{
 
 buscar = Number(prompt("Introduce el número que se quiere buscar"));
 for (let i = 0; i < numeros.length; i++) {
-    if (numeros.includes(buscar)) {
+    if (numeros[i].includes(buscar)) {
         veces++;
     }
 }

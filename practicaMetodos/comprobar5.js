@@ -8,12 +8,6 @@ do{
 
 }while (numero != 0);
 
-/* for (let i = 0; i < numeros.length; i++) {
-    if (numeros[i]%10 == 5 || numeros[i] == 50) {
-      alert("tiene 5");  
-    }
-} */
-
 if (numeros.includes(5)) {
     alert("El array si incluye un 5");
 }else {

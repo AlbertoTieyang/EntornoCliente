@@ -19,22 +19,19 @@ do {
                 console.log(artiuculo);
             });
             }
-            
         }
-
     }else if(opcion == 2) {
         let elimina = prompt("Introduce el artículo que se quiere eliminar");
         if (listaCompra.includes(elimina)) {
             const index = listaCompra.indexOf(elimina);
             listaCompra.splice(index, 1);
-            console.log("Artículo eliminado correctamente");   
+            console.log("Artículo eliminado");   
         }else {
             alert("El artículo no está en la lista")
             listaCompra.forEach(artiuculo => {
                 console.log(artiuculo);
             });
         }
-
     }else if (opcion == 3) {
         for(let i = 0; i < listaCompra.length; i++) {
             listaCompra.shift();
@@ -43,15 +40,12 @@ do {
         listaCompra.forEach (artiuculo => {
             console.log(artiuculo);
         });
-
     }else if (opcion == 4) {
         listaCompra.forEach (artiuculo => {
             console.log(artiuculo);
         });
-
     }else if (opcion == 5) {
         alert("Saliendo");
-
     }else {
         alert("No es una opcion válida");
     }
