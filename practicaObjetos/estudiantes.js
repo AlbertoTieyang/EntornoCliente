@@ -26,9 +26,9 @@ class Estudiante {
         return aprobados;
     }
 
-    buscarPorNombre (nombre, ...estudiante) {
+    buscarPorNombre (nombre) {
         let persona;
-        for (let i = 0; i < estudiante.length; i++) {
+        for (let i = 0; i < this.estudiante.length; i++) {
             if (estudiante[i].nombre == nombre) {
                 persona = estudiante[i];
             }
