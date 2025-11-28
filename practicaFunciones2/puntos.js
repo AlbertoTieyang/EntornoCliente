@@ -11,7 +11,7 @@ function distancia (puntoA, puntoB) {
     return distancia;
 }
 
-const puntoA = new Punto(2, 3);
-const puntoB = new Punto(5, 7);
+const puntoA = new Punto(4, 6);
+const puntoB = new Punto(1, 2);
 
 distancia(puntoA, puntoB);
