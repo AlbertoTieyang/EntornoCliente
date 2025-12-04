@@ -1,0 +1,1 @@
+console.log(location.href, location.protocol, location.host, location.pathname);
