@@ -1,2 +1,4 @@
-let h1 = prompt("Introduce el título que quieres añadir");
-const a = document.inner
+let h1 = document.createElement("h1");
+let texto = document.createTextNode("creado con javascript");
+h1.appendChild(texto);
+document.body.appendChild(h1);
